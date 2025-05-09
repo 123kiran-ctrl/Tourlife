@@ -1,0 +1,353 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the Trip Checklist Section */
+#trip-checklist {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom Styling for <h2> */
+h2 {
+    font-size: 2.5rem; /* You can adjust this size as needed */
+    line-height: 1.4;
+    color: #2c3e50;
+    text-align: center; /* Centering the title */
+    margin-bottom: 15px;
+}
+
+/* Custom Styling for <p> */
+p {
+    font-size: 1.2rem;
+    color: #555;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styling the Checklist */
+#checklist {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#checklist li {
+    margin: 10px 0;
+}
+
+#checklist input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+#checklist label {
+    font-size: 1.1rem;
+}
+
+/* Styling for the Category Select Dropdown */
+#categorySelect {
+    padding: 10px;
+    font-size: 1.1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 250px;
+    margin-bottom: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Styling for the Button */
+button {
+    background-color: #3498db;
+    color: white;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Styling for Shop Results */
+#shopResults {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Responsive Design for Mobile Devices */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    #categorySelect {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+.currency-converter {
+  padding: 1em;
+  max-width: 400px;
+  margin: 2em auto;
+  background: #f4f4f4;
+  border-radius: 10px;
+  text-align: center;
+}
+.currency-converter input,
+.currency-converter select {
+  margin: 0.5em;
+  padding: 0.5em;
+}
+.currency-converter {
+  padding: 1em;
+  max-width: 400px;
+  margin: 2em auto;
+  background: #f4f4f4;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  font-family: sans-serif;
+}
+
+.currency-converter input,
+.currency-converter select,
+.currency-converter button {
+  margin: 0.5em 0;
+  padding: 0.6em;
+  width: 100%;
+  max-width: 100%;
+  font-size: 1em;
+}
+
+.currency-converter button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  border-radius: 5px;
+}
+
+.currency-converter button:hover {
+  background-color: #0056b3;
+}
+
+/* Mobile-Friendly Responsive */
+@media (max-width: 480px) {
+  .currency-converter {
+    width: 90%;
+  }
+}
+.currency-converter {
+  padding: 1em;
+  max-width: 400px;
+  margin: 2em auto;
+  background: #f0f0f0;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+.currency-converter input,
+.currency-converter select,
+.currency-converter button {
+  width: 100%;
+  padding: 0.6em;
+  margin: 0.5em 0;
+  font-size: 1em;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.currency-converter button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  transition: background 0.3s ease;
+  cursor: pointer;
+}
+
+.currency-converter button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+  .currency-converter {
+    width: 90%;
+  }
+}
+/* General Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+/* Header Styling */
+h2 {
+  color: #2c3e50;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Trip Planning Checklist */
+#trip-checklist {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 600px;
+}
+
+#trip-checklist ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#trip-checklist li {
+  margin: 10px 0;
+}
+
+#trip-checklist input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+/* Weather Section */
+#weatherCity {
+  padding: 10px;
+  margin: 20px 0;
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#weatherResult {
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+  margin-top: 10px;
+  padding: 15px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  display: inline-block;
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Itinerary Shop Section */
+#categorySelect {
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#shopResults {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Currency Converter */
+.currency-converter {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.currency-converter input,
+.currency-converter select {
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  max-width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.currency-converter button {
+  padding: 10px 20px;
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.currency-converter button:hover {
+  background-color: #3498db;
+}
+
+.currency-converter p {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* General Button Styling */
+button {
+  padding: 10px 20px;
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  size:0cqmax
+}
+
+button:hover {
+  background-color: #3498db;
+}
+
+.shop {
+  margin: 10px 0;
+}
+
+.shop h4 {
+  font-size: 18px;
+  color: #2980b9;
+}
+
+.shop a {
+  text-decoration: none;
+  color: #2980b9;
+}
+
+.shop a:hover {
+  text-decoration: underline;
+}
+
+
